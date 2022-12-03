@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+.body {  
+    font-family: 'Roboto', sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-image:  url("https://i.postimg.cc/cJ10QG4p/360-F-91352287-n-QJHD0p-Ot-X7wt-Lx-Iu-JFT8-LKPq08-LLqxy.jpg");
+    background-size: cover;
+}
+.form__legend {
+    background-color: rgb(214, 209, 209);
+    color:black;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.form__labelText {
+    width: 100%;
+    max-width: 150px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.form__fieldset { 
+    background-color: rgb(242, 239, 239);
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.form__field {
+    border: 2px solid black;
+    padding: 5px;
+    width: 100%;
+    max-width: 205px;
+    border-radius: 5px;
+}
+.form__field--select {
+    background-color: rgb(250, 244, 244);
+}
+.form__notice {
+    color:rgb(17, 16, 16);
+}
+.form__button {
+    width: 100%;
+    border: 2px solid black;
+    background-color: rgb(214, 209, 209);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.form__button:hover {
+    background-color: rgb(172, 165, 165);
+}
+.form__button:active {
+    background-color: rgb(68, 63, 63);
+}
