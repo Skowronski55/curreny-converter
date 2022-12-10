@@ -1,4 +1,4 @@
-# curreny-converter
+# currency-converter
 
 ##Demo
 
